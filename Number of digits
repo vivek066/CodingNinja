@@ -1,0 +1,9 @@
+int count(int n){
+    //write your code here
+    int c = 1;
+    while(n!=0){
+        n = n/10;
+        if(n>0) c++;
+    }
+    return c;
+}
